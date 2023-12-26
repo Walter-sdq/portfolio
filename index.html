@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Walter &mdash; sdq </title>
+
+    <!-- metas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="MindShift provides business consultation services to help businesses grow and succeed. We offer a variety of services, including business planning, marketing strategy, and financial planning." />
+    <meta name="keywords"
+        content="business consultation, business planning, marketing strategy, financial planning, MindShift" />
+    <meta name="author" content="MindShift,Joana,Blessing,Walter,Segiru" />
+
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="ham.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="/cropped-mindshift-icon-192x192.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <header class="header md">
+        <nav class="nav-body">
+            <a class="navbar-brand" href="#">
+                <img src="/images/mindshift-logo-1.png" alt="mindshift-logo">
+            </a>
+
+            <div class="nav">
+                <ul class="container list-unstyled flex-center ul-list"
+                    style="padding:0;color:var(--bs-body-color);text-decoration:none" onclick="">
+                    <li class="list-item"><a href="#">home</a></li>
+                    <li class="list-item"><a href="#">about</a></li>
+                    <li class="list-item"><a href="#">service</a></li>
+                    <li class="list-item"><a href="#">contact</a></li>
+                    <a href="#"><input type='button' class="list-item" value="portfolio"></a>
+                </ul>
+            </div>
+
+            <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="80"
+                onclick="this.classList.toggle('active'); OpenNav()">
+                <path class="line top"
+                    d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20"></path>
+                <path class="line middle" d="m 70,50 h -40"></path>
+                <path class="line bottom"
+                    d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20"></path>
+            </svg>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <div class="container-md">
+            <h1>welcome to my world</h1>
+            <p>my tech journey</p>
+        </div>
+        <div class="fluid"></div>
+    </main>
+
+    <script>
+        navLink = document.querySelector('.ul-list')
+        nav = document.querySelector('.nav')
+        function OpenNav() {
+            navLink.classList.toggle('active')
+            nav.classList.toggle('flex')
+            console.log('nave open');
+        }
+    </script>
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+
+</html>
