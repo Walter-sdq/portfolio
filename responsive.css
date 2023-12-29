@@ -80,7 +80,9 @@
         transition: .4s ease-out;
         z-index: 99
     }
-
+    /* .nav-body input {
+        color: rgb(235, 231, 234);
+        border: #7ff707 2px solid;} */
     .nav.flex {
         display: flex
     }

@@ -1,102 +1,108 @@
 @import url(ham.css);
 @import url(responsive.css);
-*{
-    margin:0;
-    padding:0;
+
+* {
+    margin: 0;
+    padding: 0;
     transition: .5s ease;
-    
+
 }
 
-body{
+body {
     height: 100dvh;
     /* background-color: #212529;
     color: whitesmoke; */
+    /* background-image: url(/pics/energy-drink-can2.jpg); */
 }
-    .nav-body a{
-        text-decoration: none;
-        color: #212529;
-        text-transform: capitalize;
-        font-weight:500
-    }
-    .nav-body a:hover {
-        color: #712c30;
-        transition: .5sec ease;
-    }
-    
-   .nav-body input {
-       color: #712c30;
-        border: #712c30 2px solid;
-        background-color: transparent;
-        transition: .7s ease;
-        width:8rem;
-        height:3rem;
-        border-radius: .9rem;
-        text-transform: capitalize;
-        font-weight:500;
-    }
-    .ham {
-        display: none;
-        
-    }
-    
 
-    .nav-body input:hover {
-        background-color: #712c30;
-        color: white;
-        width:8rem;
-        height:3rem;
-        text-decoration: none;
-        text-transform: capitalize;
-        font-weight:500;
-        border:none;
-        box-shadow: 0px 1px 19px 0px #712c3059, 0px 0px 48px 0px hsla(30, 78%, 91%, .6);
-scale: 1.05;
-    }
+.nav-body a {
+    text-decoration: none;
+    color: #212529;
+    text-transform: capitalize;
+    font-weight: 500
+}
 
-    .header {
-        margin: 0 auto;
-        max-width: 1260px;
-        padding: 10px 1rem;
-        width: 100%;
-        position: absolute;
-        top: 0;
-        padding-top: 2rem;
-    }
+.nav-body a:hover {
+    color: #712c30;
+    transition: .5sec ease;
+}
 
-.header svg{
+.nav-body input {
+    color: #712c30;
+    border: #712c30 2px solid;
+    background-color: transparent;
+    transition: .7s ease;
+    width: 8rem;
+    height: 3rem;
+    /* border-radius: .9rem; */
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.ham {
+    display: none;
+
+}
+
+
+.nav-body input:hover {
+    background-color: #712c30;
+    color: white;
+    width: 8rem;
+    height: 3rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    border: none;
+    box-shadow: 0px 1px 19px 0px #712c3059, 0px 0px 48px 0px hsla(30, 78%, 91%, .6);
+    scale: 1.05;
+}
+
+.header {
+    margin: 0 auto;
+    max-width: 1260px;
+    padding: 10px 1rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding-top: 2rem;
+}
+
+.header svg {
     color: #712c30;
 }
 
-    .nav-body {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: nowrap
-    }
+.nav-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap
+}
 
-    .nav ul {
-        display: flex;
-        margin: 0;
-        gap: 2rem;
-        list-style: none;
-    }
+.nav ul {
+    display: flex;
+    margin: 0;
+    gap: 2rem;
+    list-style: none;
+}
 
-    .nav ul li {
-        padding: 0;
-        color: var(--bs-body-color);
-        text-decoration: none
-    }
+.nav ul li {
+    padding: 0;
+    color: var(--bs-body-color);
+    text-decoration: none
+}
 
-    .flex-center {
-        align-items: center
-    }
+.flex-center {
+    align-items: center
+}
 
-    main h1{
-font-size: 3.5rem;
-text-transform: capitalize;
-line-height: 6rem;
-    }
-   main p{
-       text-transform: capitalize;
-       font-size: 2rem; 
-    }
+main h1 {
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    line-height: 6rem;
+}
+
+main p {
+    text-transform: capitalize;
+    font-size: 2rem;
+}
