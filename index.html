@@ -17,10 +17,10 @@
     <meta name="keywords" content="bootstrap| Portfolio website| html5| css3| mobile first| responsive" />
     <meta name="author" content="Walter| Akhigbe Wahab|Akhigbe Abdulwahab" />
 
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="ham.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/src/main.css">
+    <link rel="stylesheet" href="/src/ham.css">
+    <link rel="stylesheet" href="/src/responsive.css">
     <link rel="shortcut icon" href="fav.ico.jpg" type="image/x-icon">
 
 </head>
@@ -30,7 +30,7 @@
     <header class="header md">
         <nav class="nav-body">
             <a class="navbar-brand nav-logo" href="#">
-                <img src="/images/mindshift-logo-1.png" alt="mindshift-logo">
+                <img src="/images/mindshift-logo-1.png" alt="My-logo">
             </a>
 
             <div class="nav">
@@ -40,7 +40,7 @@
                     <li class="list-item"><a href="#">about</a></li>
                     <li class="list-item"><a href="#">service</a></li>
                     <li class="list-item"><a href="#">contact</a></li>
-                    <a href="#"><input type='button' class="list-item" value="portfolio"></a>
+                    <a href="/portfolio.html"><input type='button' class="list-item" value="portfolio"></a>
                 </ul>
             </div>
 
@@ -64,18 +64,12 @@
     </main>
 
     <script>
-        navLink = document.querySelector('.ul-list')
-        nav = document.querySelector('.nav')
-        function OpenNav() {
-            navLink.classList.toggle('active')
-            nav.classList.toggle('flex')
-            console.log('nave open');
-        }
+        
     </script>
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="https://kit.fontawesome.com/2f5efcaaa5.js" crossorigin="anonymous"></script>
-
+    <script src="/src/main.js"></script>
 </body>
 
 </html>
